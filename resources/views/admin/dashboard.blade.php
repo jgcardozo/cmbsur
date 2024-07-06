@@ -14,7 +14,7 @@
     @endif
     --}}
 
-    {{ __('You are logged in!') }} 
+   graficos y charts
 @stop
 
 @section('css')
@@ -24,6 +24,6 @@
 
 @section('js')
     <script>
-        console.log("Hi, I'm using the Laravel-AdminLTE package!");
+        console.log("Dashboard !");
     </script>
 @stop

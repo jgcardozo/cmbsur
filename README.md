@@ -71,3 +71,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 https://github.com/jeroennoten/Laravel-AdminLTE/wiki/Installation
 
 https://www.youtube.com/watch?v=pdCjimDNZoc
+
+#adminlet con inertia
+https://www.youtube.com/watch?v=pdCjimDNZoc

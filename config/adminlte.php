@@ -316,73 +316,94 @@ return [
             'can' => 'manage-blog',
         ],
         [
-            'text' => 'pages',
+            'text' => 'Usuarios nuevos',
             'url' => 'admin/pages',
-            'icon' => 'far fa-fw fa-file',
+            'icon' => 'fas fa-fw fa-user',
+            //'far fa-fw fa-file', ,
             'label' => 4,
             'label_color' => 'success',
         ],
-        ['header' => 'account_settings'],
+
+
         [
-            'text' => 'profile',
-            'url' => 'admin/settings',
-            'icon' => 'fas fa-fw fa-user',
+            'text' => 'Permisos',
+            'icon' => 'fas fa-fw fa-shield-alt',
+            'submenu' => [
+                [
+                    'text' => 'Roles',
+                    'url' => 'admin/settings',
+                    'icon' => 'fas fa-fw fa-lock',
+                ],
+                [
+                    'text' => 'Permisos',
+                    'url' => 'admin/settings',
+                    'icon' => 'fas fa-fw fa-key',
+                ],
+                [
+                    'text' => 'Servidor',
+                    'url' => 'admin/settings',
+                    'icon' => 'fas fa-fw fa-users',
+                ],
+            ],
         ],
-        [
-            'text' => 'change_password',
-            'url' => 'admin/settings',
-            'icon' => 'fas fa-fw fa-lock',
-        ],
+
         [
             'text' => 'Pagina Web',
-            'icon' => 'fas fa-fw fa-share',
+            'icon' => 'fas fa-fw fa-globe-americas',
             'submenu' => [
                 [
                     'text' => 'Inicio',
                     'url' => '#',
+                    'icon' => 'fas fa-fw fa-home',
                 ],
                 [
                     'text' => 'Nosotros',
-                    'url' => '#',
+                    'route' => 'admin.nosotros',
+                    'icon' => 'fas fa-fw fa-file',
                 ],
                 [
                     'text' => 'Nuestra Casa',
-                    'url' => '#',
+                    'route' => 'admin.nuestracasa',
+                    'icon' => 'fas fa-fw fa-home',
                 ],
                 [
                     'text' => 'Testimonios',
                     'url' => '#',
+                    'icon' => 'fas fa-fw fa-comment',
                 ],
                 [
                     'text' => 'Team',
                     'url' => '#',
+                    'icon' => 'fas fa-fw fa-users',
                 ],
                 [
                     'text' => 'Contactanos',
                     'url' => '#',
+                    'icon' => 'fas fa-fw fa-place-of-worship',
                 ],
                 [
                     'text' => 'Donaciones',
                     'url' => '#',
+                    'icon' => 'fas fa-fw fa-hand-holding-heart',
                 ],
             ],
         ],
-        ['header' => 'labels'],
-        [
-            'text' => 'important',
-            'icon_color' => 'red',
-            'url' => '#',
-        ],
-        [
-            'text' => 'warning',
-            'icon_color' => 'yellow',
-            'url' => '#',
-        ],
-        [
-            'text' => 'information',
-            'icon_color' => 'cyan',
-            'url' => '#',
-        ],
+        /*         ['header' => 'labels'],
+                [
+                    'text' => 'important',
+                    'icon_color' => 'red',
+                    'url' => '#',
+                ],
+                [
+                    'text' => 'warning',
+                    'icon_color' => 'yellow',
+                    'url' => '#',
+                ],
+                [
+                    'text' => 'information',
+                    'icon_color' => 'cyan',
+                    'url' => '#',
+                ], */
     ],
 
     /*
